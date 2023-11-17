@@ -21,6 +21,7 @@ github-digest from anywhere in your terminal
 
 ### Example Output for One Repository
 
+```
 ╔════════════╤═══════════════════╗
 ║ Date       │ Number of Commits ║
 ╟────────────┼───────────────────╢
@@ -54,11 +55,13 @@ github-digest from anywhere in your terminal
 ╟────────────┼───────────────────╢
 ║ 19/10/2023 │ 7                 ║
 ╚════════════╧═══════════════════╝
+```
 
 ### Example Output for One Date
 
 Date: 2022-01-01
 07/11/2023
+```
 ╔═════════════╤═══════════════════╗
 ║ Repository  │ Number of Commits ║
 ╟─────────────┼───────────────────╢
@@ -70,6 +73,7 @@ Date: 2022-01-01
 ╟─────────────┼───────────────────╢
 ║ repo 4      │ 2                 ║
 ╚═════════════╧═══════════════════╝
+```
 
 ## Command Options
 
