@@ -8,6 +8,9 @@ This tool is designed to help you keep track of the commit activity in your GitH
 
 ## Usage
 
+Create an `.env` file based on `.env.example`
+Replace the env variables with your info
+
 Run the command in your terminal:
 
 
