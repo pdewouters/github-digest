@@ -10,9 +10,14 @@ This tool is designed to help you keep track of the commit activity in your GitH
 
 Run the command in your terminal:
 
-\`\`\`bash
-github_digest --start=YYYY-MM-DD --end=YYYY-MM-DD --repos=repo1,repo2,... --view=repo
-\`\`\`
+
+`node index.js --start=YYYY-MM-DD --end=YYYY-MM-DD --repos=repo1,repo2,... --view=repo`
+or 
+```
+cd github-digest
+npm link
+github-digest from anywhere in your terminal
+```
 
 ### Example Output for One Repository
 
