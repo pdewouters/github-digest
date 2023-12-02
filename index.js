@@ -11,14 +11,18 @@ Additionally, the GitHub API does not provide a straightforward way to determine
 
 By specifying a list of repositories, you can focus on the repositories that you're most interested in and avoid unnecessary API requests. This can make your script run faster and reduce the risk of hitting the rate limit. It also allows you to work around the limitations of the GitHub API by manually specifying which repositories to include.
 */
-import 'dotenv/config'
-
+import { fileURLToPath } from 'url';
+import path from 'path';
+import dotenv from 'dotenv';
 import axios from 'axios';
 import { table } from 'table';
 import moment from 'moment';
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
